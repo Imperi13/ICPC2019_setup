@@ -1,0 +1,1 @@
+g++ main.cpp -std=gnu++14 -o out -O2
