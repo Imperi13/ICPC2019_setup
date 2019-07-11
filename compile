@@ -1,1 +1,1 @@
-g++ main.cpp -std=gnu++14 -o out -O2
+g++ ${1}.cpp -std=gnu++14 -o out -O2

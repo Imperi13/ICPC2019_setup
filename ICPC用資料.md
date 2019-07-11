@@ -4,13 +4,13 @@
 chmod +x file
 ```
 ```bash
-g++ {$1}.cpp -std=gnu++14 -o out -O2
+g++ ${1}.cpp -std=gnu++14 -o out -O2
 ```
 ```bash
 (./out < A) > A.out
 ```
 ```bash
-cp template.cpp {$1}.cpp
+cp -i template.cpp ${1}.cpp
 ```
 ```.vimrc
 syntax enable
@@ -59,3 +59,11 @@ signed main() {
 	return 0;
 }
 ```
+## 準備しておくべきライブラリ
+- UnionFind
+- gcd
+- modpow
+- fastio
+- sortindexes
+- Segment tree
+- dijkstra
